@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Carlton Shepherd'
 SITENAME = u'Carlton Shepherd'
 SITEURL = 'https://cs.gl'
-THEME = 'themes/nikhil'
+THEME = 'themes/simplegrey'
 PATH = 'content'
 
 TIMEZONE = 'Europe/Brussels'
@@ -18,7 +18,6 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-LOAD_CONTENT_CACHE = False
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
