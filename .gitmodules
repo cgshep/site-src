@@ -1,3 +1,6 @@
 [submodule "output"]
 	path = output
 	url = git@github.com:CarltonShepherd/carltonshepherd.github.io
+[submodule "themes/sober"]
+	path = themes/sober
+	url = git@github.com:CarltonShepherd/pelican-sober.git
