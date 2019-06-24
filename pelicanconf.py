@@ -41,16 +41,15 @@ RELATIVE_URLS = True
 
 TYPOGRIFY = True
 DISPLAY_PAGES_ON_MENU = True
+PATH = 'content'
 STATIC_PATHS = [
-    'extra',
+    'extra', 'images'
 ]
 EXTRA_PATH_METADATA = {
     'extra/CNAME': {'path': 'CNAME'},
     'extra/LICENSE': {'path': 'LICENSE'},
     'extra/README': {'path': 'README'},
 }
-
-
 
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
