@@ -2,17 +2,21 @@ Title: Publications
 Date: 2019-6-29 14:55
 Slug: publications
 
+## 2021
+
+* C. Shepherd, K. Markontonakis, G-A. Jaloyan, *LIRA-V: Lightweight Remote Attestation for Constrained RISC-V Devices*, To appear: IEEE Workshop on the Internet of Safe Things (SafeThings), in conjunction with IEEE Security & Privacy, IEEE, 2021. [[View PDF] <img class="pdf" src="/images/pdf.png"/>](/papers/CS_Lightweight_Remote_Attestation_for_RISC_V.pdf)
+
 ## 2019
 
-* *(In Press)*, P. Mainali and C. Shepherd, *Privacy-Enhancing Fall Detection from Remote Sensor Data Using Multi-Party Computation*, In: Proceedings of the 14th Int'l Conference on Availability, Reliability and Security (ARES '19), ACM, 2019. [[View PDF] <img class="pdf" src="/images/pdf.png"/>](/papers/fall_detection_mpc.pdf)
+* P. Mainali and C. Shepherd, *Privacy-Enhancing Fall Detection from Remote Sensor Data Using Multi-Party Computation*, In: Proceedings of the 14th Int'l Conference on Availability, Reliability and Security (ARES '19), ACM, 2019. [[View PDF] <img class="pdf" src="/images/pdf.png"/>](/papers/fall_detection_mpc.pdf)
 
-* *(In Press)*, P. Mainali, C. Shepherd, F. A. P. Petitcolas, *Privacy-Enhancing Context Authentication from Location-Sensitive Data*, In: Proceedings of the 14th Int'l Conference on Availability, Reliability and Security (ARES '19), ACM, 2019. [[View PDF] <img class="pdf" src="/images/pdf.png"/>](/papers/contextual_authentication.pdf)
+* P. Mainali, C. Shepherd, F. A. P. Petitcolas, *Privacy-Enhancing Context Authentication from Location-Sensitive Data*, In: Proceedings of the 14th Int'l Conference on Availability, Reliability and Security (ARES '19), ACM, 2019. [[View PDF] <img class="pdf" src="/images/pdf.png"/>](/papers/contextual_authentication.pdf)
 
 * C. Shepherd, *Techniques for Establishing Trust in Remote Sensing Devices Using Trusted Execution Environments*, Ph.D. Thesis, Royal Holloway, University of London, 2019. [[View PDF] <img class="pdf" src="/images/pdf.png"/>](/papers/2019shepherdcphd_final.pdf)
 
 ## 2018
 
-* *(In Press)* C. Shepherd, R. N. Akram, K. Markantonakis, *Remote Credential Management with Mutual Attestation for Trusted Execution Environments*. In: 12th IFIP Int'l Conference on Information Security Theory and Practice (WISTP '18), Springer, 2018. [[View PDF] <img class="pdf" src="/images/pdf.png"/>](/papers/credential_management_tees.pdf)
+* C. Shepherd, R. N. Akram, K. Markantonakis, *Remote Credential Management with Mutual Attestation for Trusted Execution Environments*. In: O. Blazy and C. Yeun, eds. 12th IFIP Int'l Conference on Information Security Theory and Practice (WISTP '18), vol. 11469 of Lecture Notes in Computer Science, Springer, 2018. [[View PDF] <img class="pdf" src="/images/pdf.png"/>](/papers/credential_management_tees.pdf)
 
 ## 2017
 

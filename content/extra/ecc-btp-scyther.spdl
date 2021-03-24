@@ -1,0 +1,52 @@
+hashfunction h;
+const AttReq: Function; // Attestation request
+usertype Quote;			    // Attestation quote response
+usertype SessionKey;
+usertype ECDHq; 	
+
+protocol ecc-btp(A,B)
+{
+	role A
+	{
+		fresh nA: Nonce;			
+		var nB: Nonce;
+		fresh QA: Quote; 	
+		var QB: Quote;
+		var K: SessionKey;	
+		fresh qA: ECDHq; 			
+		var qB: ECDHq;
+
+		send_1(A, B, nA, qA, AttReq);
+		recv_2(B, A, nB, qB, AttReq, {QB, {h(A, B, QB, nA, nB, qB, qA, nB)}sk(B)}K);
+		send_3(A, B, {QA,{h(A, B, QA, nA, nB, qA, qB)}sk(A)}K);
+
+		claim_a1(A, Alive);
+		claim_a2(A, Niagree);
+		claim_a3(A, Nisynch);
+		claim_a4(A, Secret, QA);
+		claim_a5(A, Reachable);
+		claim_a6(A, SKR, K);
+	}	
+	
+	role B 
+	{
+		fresh nB: Nonce;
+		var nA: Nonce;
+		fresh QB: Quote; 			
+		var QA: Quote;
+		fresh K: SessionKey;		
+		var qA: ECDHq; 			
+		fresh qB: ECDHq;
+
+		recv_1(A, B, nA, qA, AttReq);
+		send_2(B, A, nB, qB, AttReq, {QB, {h(A, B, QB, nA, nB, qB, qA, nB)}sk(B)}K);
+		recv_3(A, B, {QA,{h(A, B, QA, nA, nB, qA, qB)}sk(A)}K);
+
+		claim_b1(B, Alive);
+		claim_b2(B, Niagree);
+		claim_b3(B, Nisynch);
+		claim_b4(B, Secret, QB);
+		claim_b5(B, Reachable);
+		claim_b6(B, SKR, K);
+	}
+}

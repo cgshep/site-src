@@ -43,7 +43,7 @@ TYPOGRIFY = True
 DISPLAY_PAGES_ON_MENU = True
 PATH = 'content'
 STATIC_PATHS = [
-    'extra', 'images'
+    'extra', 'images', 'papers'
 ]
 EXTRA_PATH_METADATA = {
     'extra/CNAME': {'path': 'CNAME'},
