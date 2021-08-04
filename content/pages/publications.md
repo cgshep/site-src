@@ -1,6 +1,19 @@
-Title: Publications
+Title: Research
 Date: 2019-6-29 14:55
-Slug: publications
+Slug: research
+
+My research interests are in trusted execution environments (TEEs) and mobile and embedded systems security.
+
+# Service
+
+I've been an invited reviewer for the following journals:
+
++ IEEE Internet of Things Journal, IEEE
++ Journal of Cryptographic Engineering, Springer
++ EURASIP Journal on Wireless Communications and Networking, Springer
+
+# Publications
+
 
 ## 2021
 
