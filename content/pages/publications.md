@@ -1,5 +1,5 @@
 Title: Research
-Date: 2019-6-29 14:55
+Date: 2021-10-08
 Slug: research
 
 My research interests are in trusted execution environments (TEEs) and mobile and embedded systems security.
@@ -17,7 +17,9 @@ I've been an invited reviewer for the following journals:
 
 ## 2021
 
-* C. Shepherd, K. Markontonakis, G-A. Jaloyan, *LIRA-V: Lightweight Remote Attestation for Constrained RISC-V Devices*, To appear: IEEE Workshop on the Internet of Safe Things (SafeThings), in conjunction with IEEE Security & Privacy, IEEE, 2021. [[View PDF] <img class="pdf" src="/images/pdf.png"/>](/papers/CS_Lightweight_Remote_Attestation_for_RISC_V.pdf)
+* C. Shepherd, K. Markantonakis, N. van Heijningen, D. Aboulkassimi, C. Gaine, T. Heckmann, D. Naccache, *Physical Fault Injection and Side-Channel Attacks on Mobile Devices: A Comprehensive Anlysis*, Computers & Security, Elsevier, 2021.  [[View PDF] <img class="pdf" src="/images/pdf.png"/>](/papers/Physical_Fault_Injection_and_Side_Channel_Attacks_on_Mobile_Devices.pdf)
+* **(Best Paper Award)** V. Vagal, K. Markantonakis, C. Shepherd, *A New Approach to Complex Dynamic Geofencing for Unmanned Aerial Vehicles*, Proceedings of the 40th IEEE Digital Avionics Systems Conference (DASC), IEEE, 2021. [[View PDF] <img class="pdf" src="/images/pdf.png"/>](/papers/a_new_approach_uav_complex_dynamic_geofencing.pdf)
+* C. Shepherd, K. Markontonakis, G-A. Jaloyan, *LIRA-V: Lightweight Remote Attestation for Constrained RISC-V Devices*, IEEE Workshop on the Internet of Safe Things (SafeThings), in conjunction with IEEE Security & Privacy, IEEE, 2021. [[View PDF] <img class="pdf" src="/images/pdf.png"/>](/papers/CS_Lightweight_Remote_Attestation_for_RISC_V.pdf)
 
 ## 2019
 
